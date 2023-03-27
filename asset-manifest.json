@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/abz-agency-test-task/static/css/main.073c9b0a.css",
-    "main.js": "/abz-agency-test-task/static/js/main.448153aa.js",
-    "static/js/787.80fb13f1.chunk.js": "/abz-agency-test-task/static/js/787.80fb13f1.chunk.js",
-    "static/media/logo.svg": "/abz-agency-test-task/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/abz-agency-test-task/static/css/main.ccc58f5e.css",
+    "main.js": "/abz-agency-test-task/static/js/main.f0030778.js",
+    "static/media/desk2560-background-image-2x.jpg": "/abz-agency-test-task/static/media/desk2560-background-image-2x.c75802ef8e669e032260.jpg",
+    "static/media/desk1024-background-image-2x.jpg": "/abz-agency-test-task/static/media/desk1024-background-image-2x.0418e08d82c93161f014.jpg",
+    "static/media/tablet768-background-image-2x.jpg": "/abz-agency-test-task/static/media/tablet768-background-image-2x.9c038db0683ee55e2314.jpg",
+    "static/media/desk2560-background-image-1x.jpg": "/abz-agency-test-task/static/media/desk2560-background-image-1x.2d5c47ead7571518745b.jpg",
+    "static/media/mob360-background-image2x.jpg": "/abz-agency-test-task/static/media/mob360-background-image2x.1902c30d919f81798011.jpg",
+    "static/media/desk1024-background-image-1x.jpg": "/abz-agency-test-task/static/media/desk1024-background-image-1x.c87504fd9d56712f39e2.jpg",
+    "static/media/tablet768-background-image-1x.jpg": "/abz-agency-test-task/static/media/tablet768-background-image-1x.d05322ffb267eb7209ef.jpg",
+    "static/media/mob360-background-image1x.jpg": "/abz-agency-test-task/static/media/mob360-background-image1x.442db677a3cfa0356e96.jpg",
+    "static/media/success-image.svg": "/abz-agency-test-task/static/media/success-image.147ff01aeb0caaca03a3a94cfe9c0ce6.svg",
+    "static/media/logo.svg": "/abz-agency-test-task/static/media/logo.56bda82bd882001476c0cd3c0dd1e432.svg",
+    "static/media/photo-cover.svg": "/abz-agency-test-task/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
     "index.html": "/abz-agency-test-task/index.html",
-    "main.073c9b0a.css.map": "/abz-agency-test-task/static/css/main.073c9b0a.css.map",
-    "main.448153aa.js.map": "/abz-agency-test-task/static/js/main.448153aa.js.map",
-    "787.80fb13f1.chunk.js.map": "/abz-agency-test-task/static/js/787.80fb13f1.chunk.js.map"
+    "main.ccc58f5e.css.map": "/abz-agency-test-task/static/css/main.ccc58f5e.css.map",
+    "main.f0030778.js.map": "/abz-agency-test-task/static/js/main.f0030778.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.448153aa.js"
+    "static/css/main.ccc58f5e.css",
+    "static/js/main.f0030778.js"
   ]
 }
