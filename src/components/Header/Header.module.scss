@@ -1,0 +1,58 @@
+@import "../../sass-utils/font-sets";
+
+.logo {
+  width: 104px;
+  height: 26px;
+  margin-left: 16px;
+  @media screen and (min-width: 768px) {
+    margin-left: 32px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-left: 60px;
+  }
+  @media screen and (min-width: 2560px) {
+    margin-left: 0px;
+  }
+}
+
+.button_group {
+  margin: 13px 16px 13px auto;
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-right: 60px;
+  }
+  @media screen and (min-width: 2560px) {
+    margin-right: 0px;
+  }
+}
+
+.button_group button:first-child {
+  margin-right: 10px;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.standard_button {
+  @include font-set;
+  width: 100px;
+  height: 34px;
+  background-color: #f4e041;
+  border: none;
+  border-radius: 80px;
+  &:hover {
+    background-color: #ffe302;
+  }
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  @media screen and (min-width: 2560px) {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}

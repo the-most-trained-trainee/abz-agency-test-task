@@ -1,0 +1,82 @@
+@import "../../sass-utils/font-sets";
+
+.users_container {
+  margin: 0 16px 140px 16px;
+}
+
+.users_heading {
+  @include font-set($size: 40px, $line-height: 40px);
+  margin-bottom: 50px;
+}
+
+.users_list {
+  margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 704px;
+    gap: 16px;
+    margin: 0 auto 50px auto;
+    & li {
+      width: 344px;
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    max-width: 904px;
+    gap: 29px;
+    & li {
+      width: 282px;
+    }
+  }
+
+  @media screen and (min-width: 2560px) {
+    max-width: 1170px;
+    padding: 0 1px;
+    & li {
+      width: 370px;
+    }
+  }
+}
+
+.standard_button {
+  display: block;
+  width: 100px;
+  height: 34px;
+  background-color: #f4e041;
+  border: none;
+  border-radius: 80px;
+  margin: 0 auto;
+  @include font-set($size: 16px);
+  width: 120px;
+  &:hover {
+    background-color: #ffe302;
+  }
+  & > span {
+    @include font-set($size: 16px);
+  }
+}
+
+.loader {
+  display: block;
+  animation: rotation 1s linear infinite;
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border: 7px solid #00bdd3;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  margin: 10px auto 20px auto;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
