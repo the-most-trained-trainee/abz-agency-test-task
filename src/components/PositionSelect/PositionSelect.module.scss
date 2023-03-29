@@ -29,8 +29,14 @@
     &:checked {
       background-color: #00bdd3;
     }
+    &:hover {
+      cursor: pointer;
+    }
   }
   & label {
     @include font-set($size: 16px);
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
