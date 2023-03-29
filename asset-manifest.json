@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abz-agency-test-task/static/css/main.54ebebde.css",
+    "main.css": "/abz-agency-test-task/static/css/main.edabaf97.css",
     "main.js": "/abz-agency-test-task/static/js/main.63a3f93e.js",
     "static/media/desk2560-background-image-2x.jpg": "/abz-agency-test-task/static/media/desk2560-background-image-2x.c75802ef8e669e032260.jpg",
     "static/media/desk1024-background-image-2x.jpg": "/abz-agency-test-task/static/media/desk1024-background-image-2x.0418e08d82c93161f014.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/abz-agency-test-task/static/media/logo.56bda82bd882001476c0cd3c0dd1e432.svg",
     "static/media/photo-cover.svg": "/abz-agency-test-task/static/media/photo-cover.fb98cf13a87225efe558669bdc541ac7.svg",
     "index.html": "/abz-agency-test-task/index.html",
-    "main.54ebebde.css.map": "/abz-agency-test-task/static/css/main.54ebebde.css.map",
+    "main.edabaf97.css.map": "/abz-agency-test-task/static/css/main.edabaf97.css.map",
     "main.63a3f93e.js.map": "/abz-agency-test-task/static/js/main.63a3f93e.js.map"
   },
   "entrypoints": [
-    "static/css/main.54ebebde.css",
+    "static/css/main.edabaf97.css",
     "static/js/main.63a3f93e.js"
   ]
 }
