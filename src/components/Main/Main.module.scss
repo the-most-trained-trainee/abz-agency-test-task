@@ -32,19 +32,17 @@
   background-image: url(../../images/mob360-background-image1x.jpg);
   @media screen and (min-device-pixel-ratio: 1), screen and (min-width: 768px) {
     background-image: url(../../images/tablet768-background-image-1x.jpg);
+    max-width: 768px;
   }
-  @media screen and (min-device-pixel-ratio: 1),
-    screen and (min-width: 1024px) {
+  @media screen and (min-device-pixel-ratio: 1), screen and (min-width: 1024px) {
     background-image: url(../../images/desk1024-background-image-1x.jpg);
+    max-width: 1024px;
   }
-  @media screen and (min-device-pixel-ratio: 1),
-    screen and (min-width: 2560px) {
+  @media screen and (min-device-pixel-ratio: 1), screen and (min-width: 2560px) {
     background-image: url(../../images/desk2560-background-image-1x.jpg);
   }
   // DPR 2
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
+  @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
     background-image: url(../../images/mob360-background-image2x.jpg);
 
     @media screen and (min-width: 768px) {
@@ -61,7 +59,7 @@
   background-position: center;
   background-repeat: no-repeat;
   padding-bottom: 71px;
-  margin-bottom: 140px;
+  margin: 0 auto 140px auto;
   @media screen and (min-width: 768px) {
     padding-bottom: 88px;
   }
@@ -88,5 +86,6 @@
   @include font-set($size: 16px);
   &:hover {
     background-color: #ffe302;
+    cursor: pointer;
   }
 }

@@ -1,7 +1,5 @@
 import styles from "./PositionSelect.module.scss";
 
-// selectedValue
-
 interface Props {
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   selected: string;

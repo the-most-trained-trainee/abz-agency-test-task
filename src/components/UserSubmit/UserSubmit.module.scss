@@ -2,6 +2,11 @@
 
 .submit_container {
   margin: 0 16px;
+  @media screen and (max-width: 767px) {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .usersubmit_heading {
@@ -26,7 +31,7 @@
   }
 }
 
-.test_form {
+.submit_form {
   display: flex;
   flex-direction: column;
   margin: 0 auto 100px auto;

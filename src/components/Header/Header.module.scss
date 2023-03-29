@@ -45,12 +45,21 @@ header {
   border-radius: 80px;
   &:hover {
     background-color: #ffe302;
+    cursor: pointer;
   }
 }
 
 .header_container {
   display: flex;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1024px) {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
   @media screen and (min-width: 2560px) {
     max-width: 1170px;
     margin: 0 auto;

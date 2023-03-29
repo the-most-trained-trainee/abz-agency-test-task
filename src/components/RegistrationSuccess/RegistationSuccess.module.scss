@@ -1,10 +1,14 @@
 @import "../../sass-utils/font-sets";
 
-.success_image {
-  display: block;
-  width: 328px;
-  height: 290px;
+.success_container {
+  display: inline-block;
   margin: 0 auto 30px auto;
+  padding: 10px;
+  width: 270px;
+}
+
+.success_image {
+  width: 250px;
 }
 
 .success_heading {

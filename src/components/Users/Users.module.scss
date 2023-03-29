@@ -11,6 +11,7 @@
 
 .users_list {
   margin-bottom: 50px;
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row;
@@ -54,6 +55,7 @@
   width: 120px;
   &:hover {
     background-color: #ffe302;
+    cursor: pointer;
   }
   & > span {
     @include font-set($size: 16px);

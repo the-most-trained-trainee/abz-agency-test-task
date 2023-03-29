@@ -64,7 +64,6 @@ const UserSubmit: React.FC = () => {
         setChecked(value);
         break;
       case "file":
-        console.log(file);
         setIsPhotoValidated(await isImageValidated(file));
         setSelectedFile(file);
         break;
@@ -83,7 +82,7 @@ const UserSubmit: React.FC = () => {
     // @ts-ignore
     <div className={styles.submit_container} name="form-submit">
       <h2 className={styles.usersubmit_heading}>Working with POST request</h2>
-      <form onSubmit={handleSubmit} className={styles.test_form}>
+      <form onSubmit={handleSubmit} className={styles.submit_form}>
         <FloatingLabelInput name={name} value="name" handleChange={handleChange} />
         <FloatingLabelInput name={email} value="email" handleChange={handleChange} />
         <FloatingLabelInput name={phone} value="phone" handleChange={handleChange} />

@@ -16,7 +16,7 @@ export const notifySuccess = (message: JSX.Element) =>
 export const notifyError = (email: string) => {
   toast.error(`Error! User with email ${email} already registered`, {
     position: "top-right",
-    autoClose: 5000,
+    autoClose: 1500,
     hideProgressBar: false,
     closeOnClick: true,
     pauseOnHover: true,
