@@ -55,7 +55,7 @@ const Users: React.FC = () => {
       {isLoaded && <span className={styles.loader}></span>}
       {page !== maxpPage && (
         <button onClick={showMore} className={styles.standard_button}>
-          <span>Show More</span>
+          <span>Show more</span>
         </button>
       )}
     </div>

@@ -37,7 +37,7 @@ header {
 }
 
 .standard_button {
-  @include font-set;
+  @include font-set($size: 16px);
   width: 100px;
   height: 34px;
   background-color: #f4e041;
